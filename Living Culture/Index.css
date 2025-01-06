@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.heading-bar {
+    background-color: yellow; /* Change the color here */
+    color: black; /* Adjust text color for better contrast */
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+
+.navbar div {
+    margin-right: 20px;
+    color: white;
+}
+
+.navbar div:hover {
+    color: yellow;
+}
+
+.content {
+    background-color: white;
+    height: 100vh; /* Takes the full height of the viewport */
+    padding: 0;
+    margin: 0;
+}
