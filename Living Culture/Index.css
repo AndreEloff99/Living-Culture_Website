@@ -30,8 +30,8 @@ body {
     display: flex;          /* Align items in a row */
     justify-content: space-between; /* Space out links evenly */
     align-items: center;    /* Center the links vertically */
-    max-width: 1200px;      /* Limit the width of the navbar */
-    margin: 0 auto;    
+    max-width: 12000px;      /* Limit the width of the navbar */
+    margin: 0 auto;   
 }
 
 /* Navbar Links */
@@ -52,4 +52,16 @@ body {
 .nav-link.active {
     font-weight: bold;      /* Bold active link */
     border-bottom: 2px solid white; /* Add an underline to active links */
+}
+
+
+.header {
+    text-align: center;
+    color: black;
+    font-size: larger;
+}
+
+.text {
+    text-align: center;
+    color: black;
 }
