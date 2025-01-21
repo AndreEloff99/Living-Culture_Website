@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: gray;
 }
 
 .heading-bar {
@@ -65,3 +66,10 @@ body {
     text-align: center;
     color: black;
 }
+
+.Block1Index {
+    text-align: center;
+    text-shadow: blue;
+    font-size: 30px;
+}
+
