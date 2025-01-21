@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.heading-bar {
+    background-color: yellow; /* Change the color here */
+    color: black; /* Adjust text color for better contrast */
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar div {
+    margin-right: 20px;
+    color: white;
+}
+
+
+
+.navbar {
+    background-color: #333; /* Dark background color */
+    padding: 10px;         /* Add some spacing inside the navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+/* Navbar Content */
+.navbar-content {
+    display: flex;          /* Align items in a row */
+    justify-content: space-between; /* Space out links evenly */
+    align-items: center;    /* Center the links vertically */
+    max-width: 12000px;      /* Limit the width of the navbar */
+    margin: 0 auto;   
+}
+
+/* Navbar Links */
+.nav-link {
+    color: white;           /* Text color */
+    text-decoration: none;  /* Remove underline from links */
+    padding: 10px 15px;     /* Add some spacing around each link */
+    font-size: 16px;        /* Set font size */
+    transition: background 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-link:hover {
+    background-color: #555; /* Change background on hover */
+    border-radius: 5px;     /* Add rounded corners to the hover effect */
+}
+
+/* Optional: Add active link styling */
+.nav-link.active {
+    font-weight: bold;      /* Bold active link */
+    border-bottom: 2px solid white; /* Add an underline to active links */
+}
+
+
+.header {
+    text-align: center;
+    color: black;
+    font-size: larger;
+}
+
+.h6 {
+    text-align: center;
+    color: black;
+}
