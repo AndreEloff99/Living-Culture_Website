@@ -4,7 +4,50 @@ body {
     background-color: gray;
     font-size: 40px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
+
+.header {
+    text-align: center;
+    color: black;
+    font-size: larger;
+}
+
+.container-Main {
+    width: 500px;
+    padding: 20px;
+    align-content: center;
+    outline: yellow;
+    border: 2px black;
+    border-radius: 10x;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.paragraph {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+}
+
+.Question {
+    width: 700px;
+    height: 30px;
+    text-align: start;
+    text-align: left;
+}
+
+.button {
+    color: black;
+    width: 60px;
+    height: 40px;
+}
+
+.buton:hover {
+    color: yellow;
+}
+
 
 .heading-bar {
     background-color: yellow; /* Change the color here */
@@ -19,8 +62,6 @@ body {
     margin-right: 20px;
     color: white;
 }
-
-
 
 .navbar {
     background-color: #333; /* Dark background color */
@@ -55,16 +96,4 @@ body {
 .nav-link.active {
     font-weight: bold;      /* Bold active link */
     border-bottom: 2px solid white; /* Add an underline to active links */
-}
-
-
-.header {
-    text-align: center;
-    color: black;
-    font-size: larger;
-}
-
-.h6 {
-    text-align: center;
-    color: black;
 }
