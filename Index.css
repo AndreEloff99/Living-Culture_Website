@@ -4,25 +4,12 @@ body {
     background-color: gray;
     font-size: 40px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 }
 
 .header {
     text-align: center;
     color: black;
     font-size: larger;
-}
-
-.container-Main {
-    width: 500px;
-    padding: 20px;
-    align-content: center;
-    outline: yellow;
-    border: 2px black;
-    border-radius: 10x;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .paragraph {
