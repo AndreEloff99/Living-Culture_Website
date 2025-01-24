@@ -19,6 +19,14 @@ body {
     font-size: 14px;
 }
 
+.FirstHead {
+    text-align: center;
+}
+.FirstHead h1 {
+    font-size: larger;
+    color: yellow;
+}
+
 .Question {
     width: 700px;
     height: 30px;
@@ -32,7 +40,7 @@ body {
     font-style: normal;
 }
 
-.button {
+.Qcontainer button{
     color: black;
     width: 60px;
     height: 40px;
@@ -47,6 +55,22 @@ body {
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
 }
+.container-Main {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.Qcontainer {
+    width: 400px;
+    padding: 20px;
+    background-color: #fffbcc;
+    border: 2px solid #f7d700;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    align-content: center;
+}
+
 
 .notice-board {
     width: 400px;
