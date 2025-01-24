@@ -1,9 +1,10 @@
-body {
+body { 
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: gray;
     font-size: 40px;
     text-align: center;
+    justify-content: center;
 }
 
 .header {
@@ -25,6 +26,12 @@ body {
     text-align: left;
 }
 
+.Back2Index{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+
 .button {
     color: black;
     width: 60px;
@@ -34,6 +41,52 @@ body {
 .buton:hover {
     color: yellow;
 }
+
+.containerNotice {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.notice-board {
+    width: 400px;
+    padding: 20px;
+    background-color: #fffbcc;
+    border: 2px solid #f7d700;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    align-content: center;
+}
+
+.notice-board h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.notices {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notices li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.notices li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.notices li a:hover {
+    text-decoration: underline;
+}
+
 
 
 .heading-bar {
